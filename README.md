@@ -1,22 +1,46 @@
-# HiBuddy-BE
-## 협업규칙
-### 1. 브랜치 규칙
+# HiBuddy
 
-feat/#이슈번호-기능요약
+인하대학교 국제학생들의 정보 교류 및 친목활동과 한국어 발음 평가를 위한 커뮤니티 서비스.
 
-예시 : feat/#12-login
+## 개발 환경 & 기술 스택
 
-### 2. Commit Message
-- feat : 새로운 기능 추가
-- fix : 버그 수정, 기능 수정
-- docs : 문서 수정
-- refactor : 코드 리팩토링 (변수명 수정 등)
-- test : 테스트 코드, 리팩토링 테스트 코드 추가
-- style : 코드 스타일 변경, 코드 자체 변경이 없는 경우
-- remove : 파일 또는 코드, 리소스 제거
-- resource : 이미지 리소스, prefab 등의 코드와 상관없는 리소스 추가
+- java 17.0.9 2023-10-17 LTS
+- Java + Spring Boot
+- AWS EC2, S3, RDS 
+- Gradle
+- tomcat
 
-### 3. Pull Request
-dev <- feat/#이슈번호-기능요약
+## 주요 기능
 
-## ERD 
+### 회원 기능
+
+- 구글/카카오 소셜 로그인
+- 온보딩 및 프로필 기능
+- 작성/저장한 스레드 조회
+
+<div style="display:flex; flex-wrap:wrap; gap:2px ">
+  <img width=300 src="https://github.com/Team-HiBuddy/HiBuddy-FE/assets/116625502/c53c61f5-5bd4-469a-8306-9dcc41ac1e2b"/>
+  <img width=300 src="https://github.com/Team-HiBuddy/HiBuddy-FE/assets/116625502/68c14439-e024-43be-b5a4-6cdf35264eb2"/>
+</div>
+
+### 스레드(Threads)
+
+- 스레드 업로드, 조회, 수정 및 삭제
+- 스레드 좋아요, 저장, 댓글
+- 텍스트 및 이미지 업로드
+- 스레드 검색
+
+<div style="display:flex; flex-wrap:wrap; gap:2px ">
+  <img width=300 src="https://github.com/Team-HiBuddy/HiBuddy-FE/assets/116625502/b2ebf408-c62e-457f-b418-bedd56acf1a8"/>
+  <img width=300 src="https://github.com/Team-HiBuddy/HiBuddy-FE/assets/116625502/f855a818-79e2-48d2-bf5d-30db572cbebe"/>
+  <img width=300 src="https://github.com/Team-HiBuddy/HiBuddy-FE/assets/116625502/cdb09410-90c6-4bf6-ba1e-5c7989c1267f"/>
+  <img width=300 src="https://github.com/Team-HiBuddy/HiBuddy-FE/assets/116625502/6726b432-5c80-459c-ac27-9a2ff25b5392"/>
+</div>
+
+### 한국어 발음 테스트
+
+- 난이도별 스크립트 선택
+- wav 파일 전송 및 기록
+- 발음 & Pitch 점수 확인
+
+<img width=300 src="https://github.com/Team-HiBuddy/HiBuddy-FE/assets/116625502/914beb18-3e31-44b1-a67d-f6702b4e1390"/>
